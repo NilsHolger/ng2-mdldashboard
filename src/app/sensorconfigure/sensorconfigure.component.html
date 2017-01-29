@@ -1,0 +1,25 @@
+<div class="mdl-grid">
+   <div class="mdl-cell mdl-cell--6-col mdl-cell--4-offset">
+            <h1>List of sensors</h1>
+<button class="mdl-button mdl-js-button mdl-button--raised
+mdl-js-ripple-effect mdl-button--accent" (click)="refreshSensors()">
+  Scan for sensors
+</button>
+
+<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp"
+*ngIf="sensors && sensors.length">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Name</th>
+      <th class="mdl-data-table__cell--non-numeric">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let sensor of sensors">
+      <td class="mdl-data-table__cell--non-numeric">{{sensor.name}}</td>
+      <td class="mdl-data-table__cell--non-numeric">{{sensor.description}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
