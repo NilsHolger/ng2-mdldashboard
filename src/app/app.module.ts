@@ -22,6 +22,10 @@ import { ShoppingcartComponent } from './shoppingcart/shoppingcart.component';
 import { PeopleComponent } from './people/people.component';
 import { HelpComponent } from './help/help.component';
 import { SensorconfigureComponent } from './sensorconfigure/sensorconfigure.component';
+import { SensorlistComponent } from './sensorlist/sensorlist.component';
+
+import { FilterSensor } from './filtersensor.pipe';
+import { SensorfilterComponent } from './sensorfilter/sensorfilter.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +44,10 @@ import { SensorconfigureComponent } from './sensorconfigure/sensorconfigure.comp
     ShoppingcartComponent,
     PeopleComponent,
     HelpComponent,
-    SensorconfigureComponent
+    SensorconfigureComponent,
+    SensorlistComponent,
+    FilterSensor,
+    SensorfilterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,17 @@
+<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp"
+*ngIf="sensors && sensors.length">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Name</th>
+      <th class="mdl-data-table__cell--non-numeric">Description</th>
+      <th class="mdl-data-table__cell--non-numeric">Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let sensor of sensors">
+      <td class="mdl-data-table__cell--non-numeric">{{sensor.name}}</td>
+      <td class="mdl-data-table__cell--non-numeric">{{sensor.description}}</td>
+      <td class="mdl-data-table__cell--non-numeric">{{sensor.type}}</td>
+    </tr>
+  </tbody>
+</table>
