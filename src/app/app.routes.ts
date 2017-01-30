@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'sensors', component: SensorconfigureComponent },
   { path: 'inbox', component: InboxComponent },
   { path: 'trash', component: DeleteComponent },
-  { path: 'report', component: ReportComponent },
+  { path: 'photos', component: ReportComponent },
   { path: 'forum', component: ForumComponent },
   { path: 'flag', component: FlagComponent },
   { path: 'localoffer', component: LocalofferComponent },

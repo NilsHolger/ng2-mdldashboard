@@ -1,0 +1,110 @@
+.image1{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image1.jpg') center / cover;
+}
+.image2{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image2.jpg') center / cover;
+}
+.image3{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image3.jpg') center / cover;
+}
+.image4{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image4.jpg') center / cover;
+}
+.image5{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image5.jpg') center / cover;
+}
+.image6{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image6.jpg') center / cover;
+}
+.image7{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image7.jpg') center / cover;
+}
+.image8{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image8.jpg') center / cover;
+}
+.image9{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image10.jpg') center / cover;
+}
+.image11{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image11.jpg') center / cover;
+}
+.image12{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image12.jpg') center / cover;
+}
+.image13{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image13.jpg') center / cover;
+}
+.image1{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image1.jpg') center / cover;
+}
+.image14{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image14.jpg') center / cover;
+}
+.image15{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image15.jpg') center / cover;
+}
+.image16{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image16.jpg') center / cover;
+}
+.image17{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image17.jpg') center / cover;
+}
+.image18{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image18.jpg') center / cover;
+}
+.image19{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image19.jpg') center / cover;
+}
+.image20{
+  width: 256px;
+  height: 256px;
+  background: url('../../images/image20.jpg') center / cover;
+}
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
