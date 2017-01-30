@@ -26,6 +26,7 @@ import { SensorlistComponent } from './sensorlist/sensorlist.component';
 
 import { FilterSensor } from './filtersensor.pipe';
 import { SensorfilterComponent } from './sensorfilter/sensorfilter.component';
+import { ConfigmodalComponent } from './configmodal/configmodal.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { SensorfilterComponent } from './sensorfilter/sensorfilter.component';
     SensorconfigureComponent,
     SensorlistComponent,
     FilterSensor,
-    SensorfilterComponent
+    SensorfilterComponent,
+    ConfigmodalComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,34 @@
+<div class="mdl-dialog mdl-color--red mdl-shadow--2dp" [hidden]="!isOpen">
+
+    <div class="mdl-dialog__content">
+      <div class="typo-styles__demo mdl-typography--headline">
+        {{sensorModel.name}}
+      </div>
+      <div class="mdl-dialog__content-body">
+          <div class="mdl-card__supporting-text">
+              <form action="#">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <input class="mdl-textfield__input" type="text" name="name"
+                  [(ngModel)]="sensorModel.name">
+                  <label class="mdl-textfield__label" for="name">Name</label>
+                </div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <textarea class="mdl-textfield__input" type="text" name="description"
+                  [(ngModel)]="sensorModel.description"></textarea>
+                  <label class="mdl-textfield__label" for="description">Description</label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+    <div class="mdl-dialog__actions">
+      <button (click)="ok()" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+  <i class="material-icons">add</i>
+</button>
+<button (click)="cancel()" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+  <i class="material-icons">cancel</i>
+</button>
+
+    </div>
+  </div>
+  <div class="mdl-backdrop" [hidden]="!isOpen"></div>

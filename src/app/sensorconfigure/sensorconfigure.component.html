@@ -8,11 +8,15 @@ mdl-js-ripple-effect mdl-button--accent" (click)="refreshSensors()">
 
 <hr>
 
-<app-sensorfilter #filterCmp (filterChanges)="refreshSensors()"></app-sensorfilter>
+<app-sensorfilter #filterCmp (filterChanges)="refreshSensors()">
+</app-sensorfilter>
 
 <hr>
 
-<app-sensorlist [sensors]="(sensors | filterSensor: filterCmp.selectedCategory)"></app-sensorlist>
+<app-sensorlist [sensors]="(sensors | filterSensor: filterCmp.selectedCategory)"
+showAdd="true" (addItem)="configModal.open($event)"></app-sensorlist>
 
 </div>
 </div>
+
+<app-configmodal #configModal (confirm)="addToDashboard($event)"></app-configmodal>
